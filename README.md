@@ -1,4 +1,4 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://github.com/filiperethink/ra-password-generator/blob/master/logo.png)
 
 # Gerador de senha
 
@@ -48,7 +48,7 @@ O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e 
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone git@github.com:filiperethink/ra-password-generator.git
 ```
 
 Entre no diretório do projeto
@@ -57,17 +57,8 @@ Entre no diretório do projeto
   cd my-project
 ```
 
-Instale as dependências
+Abrir HTML no navegador.
 
-```bash
-  npm install
-```
-
-Inicie o servidor
-
-```bash
-  npm run start
-```
 
 ## Referência
 
