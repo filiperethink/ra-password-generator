@@ -21,6 +21,11 @@ buttonElement.addEventListener("click", () => {
   passwordDisplay.className = "password-display";
 
   const options = handleOptions();
+  if (options.length <= 0) {
+    passwordDisplay.innerText = "Selecione uma opção!";
+    return;
+  }
+
   let passwordText = "";
 
   passwordText = generateRandomPassword(sizePassword.value, options);
