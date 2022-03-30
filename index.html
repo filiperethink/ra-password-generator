@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R.A - Password Generator</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="logo.png" alt="LOGO RETHINK ACADEMY" class="logo-img" />
+    <div class="container">
+      <div class="wrapper-text">
+        <h1 class="password-display" id="password-display"></h1>
+      </div>
+      <div class="form-group">
+        <p>Número de caracteres:</p>
+        <input
+          type="number"
+          class="input-number"
+          id="password-length"
+          min="6"
+          value="10"
+        />
+      </div>
+      <div class="container-options" id="options">
+        <div>
+          <input checked type="checkbox" id="uppercase" />
+          <label for="uppercase">Maiúscula</label>
+        </div>
+        <div>
+          <input checked type="checkbox" id="lowercase" />
+          <label for="lowercase">Minúscula </label>
+        </div>
+        <div>
+          <input type="checkbox" id="numbers" />
+          <label for="numbers">Números</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="specialChars" />
+          <label for="specialChars">Símbolos</label>
+        </div>
+      </div>
+      <button class="btn-generator" id="generate-password">
+        Gerar senha segura!
+      </button>
+    </div>
+  </body>
+  <script src="./index.js" type="module"></script>
+</html>

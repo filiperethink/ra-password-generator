@@ -1,0 +1,145 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 16px;
+  list-style-type: none;
+  font-family: monospace;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.btn-generator {
+  box-shadow: 3px 4px 0px 0px #1564ad;
+  background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+  background-color: #79bbff;
+  border-radius: 5px;
+  border: 1px solid #337bc4;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px 44px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #528ecc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.btn-generator:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+.btn-generator:active {
+  position: relative;
+  top: 1px;
+}
+
+.container-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-options,
+div {
+  margin: 10px;
+}
+.container-options,
+div > label {
+  font-size: 16px;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.input-number {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  text-align: center;
+  font-size: 60px;
+  width: 140px;
+  height: 100px;
+}
+
+.input-number,
+.input-number * {
+  box-sizing: border-box;
+}
+
+.input-number:focus {
+  outline: none;
+}
+
+.input-number:hover {
+  background-color: rgba(240, 240, 240, 0.699);
+}
+
+.input-number:after {
+  background-color: red;
+}
+
+.password-display {
+  font-size: 60px;
+  padding: 10px 30px;
+  background-color: #f2f2f2b9;
+  min-width: 600px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  max-width: 1000px;
+}
+
+.password-display-off {
+  text-align: center;
+  font-size: 26px;
+  padding: 10px 30px;
+  background-color: #f2f2f2b9;
+}
+
+.wrapper-text {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+}
