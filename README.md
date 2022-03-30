@@ -1,4 +1,4 @@
-![Logo](https://github.com/filiperethink/ra-password-generator/blob/master/logo.png)
+<img src="https://github.com/filiperethink/ra-password-generator/blob/master/logo.png" width="250" height="250">
 
 # Gerador de senha
 
