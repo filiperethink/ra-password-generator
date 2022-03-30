@@ -6,7 +6,7 @@ Esse projeto foi criado para o curso de javascript do Rethink Academy, a ideia p
 
 ## Demonstração
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](https://github.com/filiperethink/ra-password-generator/blob/master/demo.gif)
 
 ## Tarefas
 
